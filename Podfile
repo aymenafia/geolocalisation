@@ -9,5 +9,6 @@ target 'geolocalisation' do
 
   pod 'GoogleMaps'
   pod 'GooglePlaces'
+  pod 'GooglePlacePicker'
 
 end

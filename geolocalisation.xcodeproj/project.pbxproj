@@ -8,9 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		5D6CC32376E04B3224C75C41 /* Pods_geolocalisation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94AC09A5F0D458B237BDE8C /* Pods_geolocalisation.framework */; };
+		DE4BC273200432D9006D9F49 /* CustomMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4BC272200432D9006D9F49 /* CustomMarkerView.swift */; };
+		DE4BC27520043393006D9F49 /* RestaurantPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4BC27420043393006D9F49 /* RestaurantPreviewView.swift */; };
+		DE4BC27720043479006D9F49 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4BC27620043479006D9F49 /* DetailsVC.swift */; };
+		DE4BC27B20044131006D9F49 /* initViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4BC27A20044131006D9F49 /* initViewController.swift */; };
+		DE4BC27F20044CF6006D9F49 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4BC27E20044CF6006D9F49 /* main.storyboard */; };
 		DE9C8B22200295830020BC5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C8B21200295830020BC5C /* AppDelegate.swift */; };
 		DE9C8B24200295830020BC5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C8B23200295830020BC5C /* ViewController.swift */; };
-		DE9C8B27200295830020BC5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9C8B25200295830020BC5C /* Main.storyboard */; };
 		DE9C8B2A200295830020BC5C /* geolocalisation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE9C8B28200295830020BC5C /* geolocalisation.xcdatamodeld */; };
 		DE9C8B2C200295830020BC5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9C8B2B200295830020BC5C /* Assets.xcassets */; };
 		DE9C8B2F200295830020BC5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9C8B2D200295830020BC5C /* LaunchScreen.storyboard */; };
@@ -39,10 +43,14 @@
 		79B09A5E2308A77A15C4ED45 /* Pods-geolocalisation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geolocalisation.release.xcconfig"; path = "Pods/Target Support Files/Pods-geolocalisation/Pods-geolocalisation.release.xcconfig"; sourceTree = "<group>"; };
 		B94AC09A5F0D458B237BDE8C /* Pods_geolocalisation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_geolocalisation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0936FE55A0E61D05391E541 /* Pods-geolocalisation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geolocalisation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-geolocalisation/Pods-geolocalisation.debug.xcconfig"; sourceTree = "<group>"; };
+		DE4BC272200432D9006D9F49 /* CustomMarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMarkerView.swift; sourceTree = "<group>"; };
+		DE4BC27420043393006D9F49 /* RestaurantPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantPreviewView.swift; sourceTree = "<group>"; };
+		DE4BC27620043479006D9F49 /* DetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		DE4BC27A20044131006D9F49 /* initViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initViewController.swift; sourceTree = "<group>"; };
+		DE4BC27E20044CF6006D9F49 /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 		DE9C8B1E200295830020BC5C /* geolocalisation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geolocalisation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE9C8B21200295830020BC5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE9C8B23200295830020BC5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DE9C8B26200295830020BC5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE9C8B29200295830020BC5C /* geolocalisation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = geolocalisation.xcdatamodel; sourceTree = "<group>"; };
 		DE9C8B2B200295830020BC5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE9C8B2E200295830020BC5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -116,12 +124,16 @@
 			isa = PBXGroup;
 			children = (
 				DE9C8B21200295830020BC5C /* AppDelegate.swift */,
+				DE4BC27420043393006D9F49 /* RestaurantPreviewView.swift */,
+				DE4BC27620043479006D9F49 /* DetailsVC.swift */,
 				DE9C8B23200295830020BC5C /* ViewController.swift */,
-				DE9C8B25200295830020BC5C /* Main.storyboard */,
+				DE4BC272200432D9006D9F49 /* CustomMarkerView.swift */,
 				DE9C8B2B200295830020BC5C /* Assets.xcassets */,
 				DE9C8B2D200295830020BC5C /* LaunchScreen.storyboard */,
 				DE9C8B30200295830020BC5C /* Info.plist */,
 				DE9C8B28200295830020BC5C /* geolocalisation.xcdatamodeld */,
+				DE4BC27A20044131006D9F49 /* initViewController.swift */,
+				DE4BC27E20044CF6006D9F49 /* main.storyboard */,
 			);
 			path = geolocalisation;
 			sourceTree = "<group>";
@@ -263,8 +275,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE9C8B2F200295830020BC5C /* LaunchScreen.storyboard in Resources */,
+				DE4BC27F20044CF6006D9F49 /* main.storyboard in Resources */,
 				DE9C8B2C200295830020BC5C /* Assets.xcassets in Resources */,
-				DE9C8B27200295830020BC5C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +350,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE9C8B24200295830020BC5C /* ViewController.swift in Sources */,
+				DE4BC27720043479006D9F49 /* DetailsVC.swift in Sources */,
+				DE4BC273200432D9006D9F49 /* CustomMarkerView.swift in Sources */,
+				DE4BC27B20044131006D9F49 /* initViewController.swift in Sources */,
+				DE4BC27520043393006D9F49 /* RestaurantPreviewView.swift in Sources */,
 				DE9C8B2A200295830020BC5C /* geolocalisation.xcdatamodeld in Sources */,
 				DE9C8B22200295830020BC5C /* AppDelegate.swift in Sources */,
 			);
@@ -375,14 +391,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DE9C8B25200295830020BC5C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE9C8B26200295830020BC5C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DE9C8B2D200295830020BC5C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
